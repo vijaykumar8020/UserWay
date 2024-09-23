@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UserWay Integration Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- UserWay Script -->
+  <script type="text/javascript">
+    (function(d){
+      var s = d.createElement('script');
+      s.setAttribute('data-account', '456Mp8fK3f');
+      s.setAttribute('src', 'https://cdn.userway.org/widget.js');
+      (d.body || d.head).appendChild(s);
+    })(document);
+  </script>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My Website</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>Welcome to Our Website</h1>
+      <p>We are committed to providing the best user experience for all visitors. With the UserWay accessibility widget, you can customize the site to fit your needs.</p>
+      <button class="btn btn-primary">Learn More</button>
+    </div>
+    <div class="col-md-6">
+      <img src="https://via.placeholder.com/500" alt="Placeholder Image" class="img-fluid">
+    </div>
+  </div>
+</section>
+
+<!-- Card Section -->
+<section class="container mt-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Card Title 1</h5>
+          <p class="card-text">This is a description for card 1. The content is accessible and can be customized via UserWay.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Card Title 2</h5>
+          <p class="card-text">This is a description for card 2. Adjust accessibility options via the widget.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Card Title 3</h5>
+          <p class="card-text">This is a description for card 3. Make use of the accessibility widget.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Form Section -->
+<section class="container mt-5">
+  <h2>Contact Us</h2>
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="text-center mt-5 p-3 bg-light">
+  &copy; 2024 My Website | Accessibility powered by UserWay
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
